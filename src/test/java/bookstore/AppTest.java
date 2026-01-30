@@ -1,7 +1,6 @@
 package bookstore;
 
-import csd214.bookstore.pojos.Book;
-import csd214.bookstore.pojos.SaleableItem;
+import bookstore.pojos.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 

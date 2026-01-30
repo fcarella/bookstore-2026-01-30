@@ -1,7 +1,7 @@
 package bookstore;
 
+import bookstore.pojos.*;
 import com.github.javafaker.Faker;
-import csd214.bookstore.pojos.*;
 
 import java.util.ArrayList;
 import java.util.List;
