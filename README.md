@@ -16,7 +16,7 @@ A console-based Java application for managing a bookstore inventory, performing 
 
 ## Class Hierarchy
 
-![Class Diagram](documentation/bookstore-2025-12-04-213439.png)
+![Class Diagram](documentation/bookstore-2026-01-30-142617.png)
 
 The hierarchy implements the following structure:
 *   **SaleableItem (Interface):** Defines `sellItem()` and `getPrice()`.
