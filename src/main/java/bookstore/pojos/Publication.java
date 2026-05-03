@@ -80,7 +80,11 @@ public abstract class Publication extends Product {
 
     @Override
     public String toString() {
-        return "Publication{title='" + title + "', price=" + price + ", copies=" + copies + "}";
+        return "Publication{" +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                ", copies=" + copies +
+                "} " + super.toString();
     }
 
     @Override
