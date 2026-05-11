@@ -268,8 +268,8 @@ public class App {
 
             // Ticket
             Ticket t = new Ticket();
-            t.description = "Concert: " + faker.rockBand().name();
-            t.price = faker.number().randomDouble(2, 50, 150);
+            t.setDescription( "Concert: "+ faker.rockBand().name());;
+            t.setPrice(faker.number().randomDouble(2, 50, 150));
             addItem(t);
         }
     }
